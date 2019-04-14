@@ -1,0 +1,71 @@
+Testing Strategies:
+
+
+t1.dump 
+
+	Test a for loop i = 1 -> 5
+	Test: 
+		addiu
+		beq
+		j
+
+
+t2.dump 
+	
+	Test function calls with jal and jr. 
+		Test:
+			jal
+			j
+			subu
+			addiu
+
+t3.dump
+
+	Test arrays.
+		Test:	//When adding an address into a register mips translates addiu to lui and ori and adds 
+			lui
+			ori 
+			addu 
+			sw
+			lw
+
+t4.dump
+	
+	Check sw and lw without array access 
+
+t5.dump and t6.dump 
+	
+	checking slt 
+
+t7.dump 
+	check sll and srl 
+
+t8.dump 
+	check all for correct print instruction 
+
+
+
+
+
+
+
+
+
+
+
+
+List of References used for Project 1:
+
+MIPS Reference Sheet
+
+https://www.codecademy.com/en/forum_questions/5562647b9113cb333f00037c
+
+https://www.tutorialspoint.com/cprogramming/switch_statement_in_c.htm
+
+https://www.quora.com/What-is-called-masking-in-the-C-language
+
+https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/
+
+https://www.gnu.org/software/libc/manual/html_node/Normal-Termination.html#Normal-Termination
+
+https://stackoverflow.com/questions/6215256/sign-extension-from-16-to-32-bits-in-c
