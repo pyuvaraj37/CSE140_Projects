@@ -28,6 +28,7 @@ RegVals rVals;
 void InitComputer (FILE* filein, int printingRegisters, int printingMemory,
   int debugging, int interactive) {
     int k;
+	//PRITHVIRAJ YUVARAJ's CODE
     unsigned int instr;
 
     /* Initialize registers and memory */
